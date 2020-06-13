@@ -474,19 +474,15 @@ def main():
     data = []
 
     # iterate through data and parse the url
-    # for region in country_list:
-    #     print('\nParsing {}...'.format(region))
+    for region in country_list:
+        print('\nParsing {}...'.format(region))
 
-    #     for country in country_list[region]:
-    #         print('\n\tParsing {}...'.format(country["country_name"]))
+        for country in country_list[region]:
+            print('\n\tParsing {}...'.format(country["country_name"]))
 
-    #         for i in range(1, country["num_of_pages"]+1):
-    #             print('\t\tParsing Page {} out of {}.....'.format(i, country["num_of_pages"]))
-    #             data.append(parse(urls[region].format(country["country_code"], i)))
-
-
-    data.append(parse(urls['Americas'].format('CA', 1)))
-
+            for i in range(1, country["num_of_pages"]+1):
+                print('\t\tParsing Page {} out of {}.....'.format(i, country["num_of_pages"]))
+                data.append(parse(urls[region].format(country["country_code"], i)))
     
     # save the data to excel file
     save(data)
