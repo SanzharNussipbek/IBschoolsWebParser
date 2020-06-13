@@ -1,0 +1,763 @@
+{
+    "Americas": [
+        {
+            "country_code": "AG",
+            "num_of_pages": 1,
+            "country_name": "Antigua and Barbuda"
+        },
+        {
+            "country_code": "AR",
+            "num_of_pages": 2,
+            "country_name": "Argentina"
+        },
+        {
+            "country_code": "BS",
+            "num_of_pages": 1,
+            "country_name": "Bahamas"
+        },
+        {
+            "country_code": "BB",
+            "num_of_pages": 1,
+            "country_name": "Barbados"
+        },
+        {
+            "country_code": "BM",
+            "num_of_pages": 1,
+            "country_name": "Bermuda"
+        },
+        {
+            "country_code": "BO",
+            "num_of_pages": 1,
+            "country_name": "Bolivia"
+        },
+        {
+            "country_code": "BR",
+            "num_of_pages": 2,
+            "country_name": "Brazil"
+        },
+        {
+            "country_code": "CA",
+            "num_of_pages": 9,
+            "country_name": "Canada"
+        },
+        {
+            "country_code": "KY",
+            "num_of_pages": 1,
+            "country_name": "Cayman Islands"
+        },
+        {
+            "country_code": "CL",
+            "num_of_pages": 1,
+            "country_name": "Chile"
+        },
+        {
+            "country_code": "CO",
+            "num_of_pages": 2,
+            "country_name": "Colombia"
+        },
+        {
+            "country_code": "CR",
+            "num_of_pages": 2,
+            "country_name": "Costa Rica"
+        },
+        {
+            "country_code": "CW",
+            "num_of_pages": 1,
+            "country_name": "Curacao"
+        },
+        {
+            "country_code": "DO",
+            "num_of_pages": 1,
+            "country_name": "Dominican Republic"
+        },
+        {
+            "country_code": "EC",
+            "num_of_pages": 2,
+            "country_name": "Ecuador"
+        },
+        {
+            "country_code": "SV",
+            "num_of_pages": 1,
+            "country_name": "El Salvador"
+        },
+        {
+            "country_code": "GT",
+            "num_of_pages": 1,
+            "country_name": "Guatemala"
+        },
+        {
+            "country_code": "HN",
+            "num_of_pages": 1,
+            "country_name": "Honduras"
+        },
+        {
+            "country_code": "JM",
+            "num_of_pages": 1,
+            "country_name": "Jamaica"
+        },
+        {
+            "country_code": "MX",
+            "num_of_pages": 3,
+            "country_name": "Mexico"
+        },
+        {
+            "country_code": "NI",
+            "num_of_pages": 1,
+            "country_name": "Nicaragua"
+        },
+        {
+            "country_code": "PA",
+            "num_of_pages": 1,
+            "country_name": "Panama"
+        },
+        {
+            "country_code": "PY",
+            "num_of_pages": 1,
+            "country_name": "Paraguay"
+        },
+        {
+            "country_code": "PE",
+            "num_of_pages": 2,
+            "country_name": "Peru"
+        },
+        {
+            "country_code": "PR",
+            "num_of_pages": 1,
+            "country_name": "Puerto Rico"
+        },
+        {
+            "country_code": "SX",
+            "num_of_pages": 1,
+            "country_name": "Sint Maarten (dutch)"
+        },
+        {
+            "country_code": "UY",
+            "num_of_pages": 1,
+            "country_name": "Uruguay"
+        },
+        {
+            "country_code": "US",
+            "num_of_pages": 49,
+            "country_name": "USA"
+        },
+        {
+            "country_code": "VE",
+            "num_of_pages": 1,
+            "country_name": "Venezuela"
+        },
+        {
+            "country_code": "VG",
+            "num_of_pages": 1,
+            "country_name": "Virgin Islands, British"
+        },
+        {
+            "country_code": "VI",
+            "num_of_pages": 1,
+            "country_name": "Virgin Islands, U.S."
+        }
+    ],
+    "Asia Pacific": [
+        {
+            "country_code": "AZ",
+            "num_of_pages": 1,
+            "country_name": "Azerbaijan"
+        },
+        {
+            "country_code": "AL",
+            "num_of_pages": 1,
+            "country_name": "Albania"
+        },
+        {
+            "country_code": "AD",
+            "num_of_pages": 1,
+            "country_name": "Andorra"
+        },
+        {
+            "country_code": "AO",
+            "num_of_pages": 1,
+            "country_name": "Angola"
+        },
+        {
+            "country_code": "AM",
+            "num_of_pages": 1,
+            "country_name": "Armenia"
+        },
+        {
+            "country_code": "AT",
+            "num_of_pages": 1,
+            "country_name": "Austria"
+        },
+        {
+            "country_code": "BH",
+            "num_of_pages": 1,
+            "country_name": "Bahrain"
+        },
+        {
+            "country_code": "BE",
+            "num_of_pages": 1,
+            "country_name": "Belgia"
+        },
+        {
+            "country_code": "BA",
+            "num_of_pages": 1,
+            "country_name": "Bosnia and Herzegovina"
+        },
+        {
+            "country_code": "BW",
+            "num_of_pages": 1,
+            "country_name": "Botswana"
+        },
+        {
+            "country_code": "BG",
+            "num_of_pages": 1,
+            "country_name": "Bulgaria"
+        },
+        {
+            "country_code": "BF",
+            "num_of_pages": 1,
+            "country_name": "Burkina Faso"
+        },
+        {
+            "country_code": "CM",
+            "num_of_pages": 1,
+            "country_name": "Cameroon"
+        },
+        {
+            "country_code": "CD",
+            "num_of_pages": 1,
+            "country_name": "Congo"
+        },
+        {
+            "country_code": "CI",
+            "num_of_pages": 1,
+            "country_name": "Cote D'ivoire"
+        },
+        {
+            "country_code": "HR",
+            "num_of_pages": 1,
+            "country_name": "Croatia"
+        },
+        {
+            "country_code": "CU",
+            "num_of_pages": 1,
+            "country_name": "Cuba"
+        },
+        {
+            "country_code": "CY",
+            "num_of_pages": 1,
+            "country_name": "Cyprus"
+        },
+        {
+            "country_code": "CZ",
+            "num_of_pages": 1,
+            "country_name": "Czech Republic"
+        },
+        {
+            "country_code": "DK",
+            "num_of_pages": 1,
+            "country_name": "Denmark"
+        },
+        {
+            "country_code": "ER",
+            "num_of_pages": 1,
+            "country_name": "Eritrea"
+        },
+        {
+            "country_code": "EE",
+            "num_of_pages": 1,
+            "country_name": "Estonia"
+        },
+        {
+            "country_code": "ET",
+            "num_of_pages": 1,
+            "country_name": "Ethiopia"
+        },
+        {
+            "country_code": "FI",
+            "num_of_pages": 1,
+            "country_name": "Finlandia"
+        },
+        {
+            "country_code": "FR",
+            "num_of_pages": 1,
+            "country_name": "France"
+        },
+        {
+            "country_code": "GA",
+            "num_of_pages": 1,
+            "country_name": "Gabon"
+        },
+        {
+            "country_code": "GE",
+            "num_of_pages": 1,
+            "country_name": "Georgia"
+        },
+        {
+            "country_code": "DE",
+            "num_of_pages": 4,
+            "country_name": "Germany"
+        },
+        {
+            "country_code": "GH",
+            "num_of_pages": 1,
+            "country_name": "Ghana"
+        },
+        {
+            "country_code": "GR",
+            "num_of_pages": 1,
+            "country_name": "Greece"
+        },
+        {
+            "country_code": "GG",
+            "num_of_pages": 1,
+            "country_name": "Guernsey"
+        },
+        {
+            "country_code": "HU",
+            "num_of_pages": 1,
+            "country_name": "Hungary"
+        },
+        {
+            "country_code": "IS",
+            "num_of_pages": 1,
+            "country_name": "Iceland"
+        },
+        {
+            "country_code": "IR",
+            "num_of_pages": 1,
+            "country_name": "Iran"
+        },
+        {
+            "country_code": "IQ",
+            "num_of_pages": 1,
+            "country_name": "Iraq"
+        },
+        {
+            "country_code": "IE",
+            "num_of_pages": 1,
+            "country_name": "Ireland"
+        },
+        {
+            "country_code": "IM",
+            "num_of_pages": 1,
+            "country_name": "Isle of Man"
+        },
+        {
+            "country_code": "IL",
+            "num_of_pages": 1,
+            "country_name": "Israel"
+        },
+        {
+            "country_code": "IT",
+            "num_of_pages": 2,
+            "country_name": "Italy"
+        },
+        {
+            "country_code": "JE",
+            "num_of_pages": 1,
+            "country_name": "Jersey"
+        },
+        {
+            "country_code": "JO",
+            "num_of_pages": 1,
+            "country_name": "Jordan"
+        },
+        {
+            "country_code": "KZ",
+            "num_of_pages": 1,
+            "country_name": "Kazakhstan"
+        },
+        {
+            "country_code": "KE",
+            "num_of_pages": 1,
+            "country_name": "Kenia"
+        },
+        {
+            "country_code": "KW",
+            "num_of_pages": 1,
+            "country_name": "Kuwait"
+        },
+        {
+            "country_code": "KG",
+            "num_of_pages": 1,
+            "country_name": "Kyrgyzstan"
+        },
+        {
+            "country_code": "LV",
+            "num_of_pages": 1,
+            "country_name": "Latvia"
+        },
+        {
+            "country_code": "LB",
+            "num_of_pages": 1,
+            "country_name": "Lebanon"
+        },
+        {
+            "country_code": "LS",
+            "num_of_pages": 1,
+            "country_name": "Lesotho"
+        },
+        {
+            "country_code": "LT",
+            "num_of_pages": 1,
+            "country_name": "Lithuania"
+        },
+        {
+            "country_code": "LU",
+            "num_of_pages": 1,
+            "country_name": "Luxemburg"
+        },
+        {
+            "country_code": "MG",
+            "num_of_pages": 1,
+            "country_name": "Madagaskar"
+        },
+        {
+            "country_code": "MW",
+            "num_of_pages": 1,
+            "country_name": "Malawi"
+        },
+        {
+            "country_code": "ML",
+            "num_of_pages": 1,
+            "country_name": "Mali"
+        },
+        {
+            "country_code": "MT",
+            "num_of_pages": 1,
+            "country_name": "Malta"
+        },
+        {
+            "country_code": "MU",
+            "num_of_pages": 1,
+            "country_name": "Mauritius"
+        },
+        {
+            "country_code": "MC",
+            "num_of_pages": 1,
+            "country_name": "Monaco"
+        },
+        {
+            "country_code": "ME",
+            "num_of_pages": 1,
+            "country_name": "Montenegro"
+        },
+        {
+            "country_code": "MZ",
+            "num_of_pages": 1,
+            "country_name": "Mazambique"
+        },
+        {
+            "country_code": "NA",
+            "num_of_pages": 1,
+            "country_name": "Namibia"
+        },
+        {
+            "country_code": "NG",
+            "num_of_pages": 1,
+            "country_name": "Nigeria"
+        },
+        {
+            "country_code": "NL",
+            "num_of_pages": 1,
+            "country_name": "Netherlands"
+        },
+        {
+            "country_code": "NO",
+            "num_of_pages": 2,
+            "country_name": "Norway"
+        },
+        {
+            "country_code": "OM",
+            "num_of_pages": 1,
+            "country_name": "Oman"
+        },
+        {
+            "country_code": "PS",
+            "num_of_pages": 1,
+            "country_name": "Palestine"
+        },
+        {
+            "country_code": "PL",
+            "num_of_pages": 3,
+            "country_name": "Poland"
+        },
+        {
+            "country_code": "PT",
+            "num_of_pages": 1,
+            "country_name": "Portugal"
+        },
+        {
+            "country_code": "MK",
+            "num_of_pages": 1,
+            "country_name": "North Macedonia"
+        },
+        {
+            "country_code": "QA",
+            "num_of_pages": 1,
+            "country_name": "Qatar"
+        },
+        {
+            "country_code": "RU",
+            "num_of_pages": 2,
+            "country_name": "Russia"
+        },
+        {
+            "country_code": "RO",
+            "num_of_pages": 1,
+            "country_name": "Romania"
+        },
+        {
+            "country_code": "RW",
+            "num_of_pages": 1,
+            "country_name": "Rwanda"
+        },
+        {
+            "country_code": "SA",
+            "num_of_pages": 1,
+            "country_name": "Saudi Arabia"
+        },
+        {
+            "country_code": "ZA",
+            "num_of_pages": 1,
+            "country_name": "South Africa"
+        },
+        {
+            "country_code": "SN",
+            "num_of_pages": 1,
+            "country_name": "Senegal"
+        },
+        {
+            "country_code": "RS",
+            "num_of_pages": 1,
+            "country_name": "Serbia"
+        },
+        {
+            "country_code": "SK",
+            "num_of_pages": 1,
+            "country_name": "Slovakia"
+        },
+        {
+            "country_code": "SI",
+            "num_of_pages": 1,
+            "country_name": "Slovenia"
+        },
+        {
+            "country_code": "ES",
+            "num_of_pages": 4,
+            "country_name": "Spain"
+        },
+        {
+            "country_code": "SD",
+            "num_of_pages": 1,
+            "country_name": "Sudan"
+        },
+        {
+            "country_code": "SZ",
+            "num_of_pages": 1,
+            "country_name": "Swaziland"
+        },
+        {
+            "country_code": "SE",
+            "num_of_pages": 2,
+            "country_name": "Sweden"
+        },
+        {
+            "country_code": "CH",
+            "num_of_pages": 3,
+            "country_name": "Switzerland"
+        },
+        {
+            "country_code": "TZ",
+            "num_of_pages": 1,
+            "country_name": "Tanzania"
+        },
+        {
+            "country_code": "TG",
+            "num_of_pages": 1,
+            "country_name": "Togo"
+        },
+        {
+            "country_code": "TN",
+            "num_of_pages": 1,
+            "country_name": "Tunisia"
+        },
+        {
+            "country_code": "TR",
+            "num_of_pages": 3,
+            "country_name": "Turkey"
+        },
+        {
+            "country_code": "UG",
+            "num_of_pages": 1,
+            "country_name": "Uganda"
+        },
+        {
+            "country_code": "UA",
+            "num_of_pages": 1,
+            "country_name": "Ukraine"
+        },
+        {
+            "country_code": "AE",
+            "num_of_pages": 3,
+            "country_name": "UAE"
+        },
+        {
+            "country_code": "UZ",
+            "num_of_pages": 1,
+            "country_name": "Uzbekistan"
+        },
+        {
+            "country_code": "GB",
+            "num_of_pages": 5,
+            "country_name": "United Kingdom"
+        },
+        {
+            "country_code": "ZM",
+            "num_of_pages": 1,
+            "country_name": "Zambia"
+        },
+        {
+            "country_code": "ZW",
+            "num_of_pages": 1,
+            "country_name": "Zimbabwe"
+        }
+    ],
+    "Africa, Europe and Middle East": [
+        {
+            "country_code": "AU",
+            "num_of_pages": 4,
+            "country_name": "Australia"
+        },
+        {
+            "country_code": "BD",
+            "num_of_pages": 1,
+            "country_name": "Bangladesh"
+        },
+        {
+            "country_code": "BN",
+            "num_of_pages": 1,
+            "country_name": "Brunei Darussalam"
+        },
+        {
+            "country_code": "KH",
+            "num_of_pages": 1,
+            "country_name": "Cambodia"
+        },
+        {
+            "country_code": "CN",
+            "num_of_pages": 6,
+            "country_name": "China"
+        },
+        {
+            "country_code": "FJ",
+            "num_of_pages": 1,
+            "country_name": "Fiji"
+        },
+        {
+            "country_code": "GU",
+            "num_of_pages": 1,
+            "country_name": "Guam"
+        },
+        {
+            "country_code": "HK",
+            "num_of_pages": 2,
+            "country_name": "Hong Kong"
+        },
+        {
+            "country_code": "IN",
+            "num_of_pages": 8,
+            "country_name": "India"
+        },
+        {
+            "country_code": "ID",
+            "num_of_pages": 3,
+            "country_name": "Indonesia"
+        },
+        {
+            "country_code": "JP",
+            "num_of_pages": 3,
+            "country_name": "Japan"
+        },
+        {
+            "country_code": "KR",
+            "num_of_pages": 1,
+            "country_name": "Korea"
+        },
+        {
+            "country_code": "LA",
+            "num_of_pages": 1,
+            "country_name": "Lao"
+        },
+        {
+            "country_code": "MO",
+            "num_of_pages": 1,
+            "country_name": "Macao"
+        },
+        {
+            "country_code": "MY",
+            "num_of_pages": 1,
+            "country_name": "Malaysia"
+        },
+        {
+            "country_code": "MN",
+            "num_of_pages": 3,
+            "country_name": "Mongolia"
+        },
+        {
+            "country_code": "MM",
+            "num_of_pages": 1,
+            "country_name": "Myanmar"
+        },
+        {
+            "country_code": "NP",
+            "num_of_pages": 1,
+            "country_name": "Nepal"
+        },
+        {
+            "country_code": "NZ",
+            "num_of_pages": 1,
+            "country_name": "New Zealand"
+        },
+        {
+            "country_code": "PK",
+            "num_of_pages": 1,
+            "country_name": "Pakistan"
+        },
+        {
+            "country_code": "PG",
+            "num_of_pages": 1,
+            "country_name": "Papua New Guinea"
+        },
+        {
+            "country_code": "PH",
+            "num_of_pages": 1,
+            "country_name": "Philippines"
+        },
+        {
+            "country_code": "SG",
+            "num_of_pages": 2,
+            "country_name": "Singapore"
+        },
+        {
+            "country_code": "LK",
+            "num_of_pages": 1,
+            "country_name": "Sri Lanka"
+        },
+        {
+            "country_code": "TW",
+            "num_of_pages": 1,
+            "country_name": "Taiwan"
+        },
+        {
+            "country_code": "TH",
+            "num_of_pages": 2,
+            "country_name": "Thailand"
+        },
+        {
+            "country_code": "VN",
+            "num_of_pages": 1,
+            "country_name": "Vietnam"
+        }
+    ]
+}
