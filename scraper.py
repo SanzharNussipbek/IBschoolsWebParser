@@ -137,7 +137,6 @@ def get_country_name(url):
     country_name = country_name[0] if len(country_name) != 0 else 'UNKNOWN'
 
     if country_name[:2] == 'IB':
-        print('hello')
         country_name = tree.xpath(path2)
         country_name = country_name[0] if len(country_name) != 0 else 'UNKNOWN'
     
@@ -335,7 +334,7 @@ def init_json():
                     ['JE', 1, "Jersey"],
                     ['JO', 1, 'Jordan'],
                     ['KZ', 1, 'Kazakhstan'],
-                    ['KE', 1, 'Kenia'],
+                    ['KE', 1, 'Kenya'],
                     ['KW', 1, 'Kuwait'],
                     ['KG', 1, "Kyrgyzstan"],
                     ['LV', 1, "Latvia"],
@@ -427,21 +426,21 @@ def init_json():
         country_dict["country_name"] = item[2]
         americas.append(country_dict)
 
-    asia = []
+    africa = []
     for item in country_list[31:124]:
         country_dict = {}
         country_dict["country_code"] = item[0]
         country_dict["num_of_pages"] = item[1]
         country_dict["country_name"] = item[2]
-        asia.append(country_dict)
+        africa.append(country_dict)
 
-    africa = []
+    asia = []
     for item in country_list[124:]:
         country_dict = {}
         country_dict["country_code"] = item[0]
         country_dict["num_of_pages"] = item[1]
         country_dict["country_name"] = item[2]
-        africa.append(country_dict)
+        asia.append(country_dict)
 
     # initialize dictionary of countries and regions
     countries = {'Americas' : americas, 'Asia Pacific' : asia, 'Africa, Europe and Middle East' : africa}
@@ -459,11 +458,13 @@ def main():
     init_json() # create json file
 
     # dictionary of the urls for three different regions
-    # the urls have two places to be formatted: country code and page number
-    urls = {
-            'Americas' : 'https://www.ibo.org/programmes/find-an-ib-school/?SearchFields.Region=iba&SearchFields.Country={}&SearchFields.Keywords=&SearchFields.Language=English&SearchFields.BoardingFacilities=&SearchFields.SchoolGender=&SearchFields.ProgrammeDP=true&page={}',
-            'Asia Pacific' : 'https://www.ibo.org/programmes/find-an-ib-school/?SearchFields.Region=ibap&SearchFields.Country={}&SearchFields.Keywords=&SearchFields.Language=English&SearchFields.BoardingFacilities=&SearchFields.SchoolGender=&SearchFields.ProgrammeDP=true&page={}',
-            'Africa, Europe and Middle East' : 'https://www.ibo.org/programmes/find-an-ib-school/?SearchFields.Region=ibaem&SearchFields.Country={}&SearchFields.Keywords=&SearchFields.Language=English&SearchFields.BoardingFacilities=&SearchFields.SchoolGender=&SearchFields.ProgrammeDP=true&page={}'
+    # the urls have three places to be formatted: region code, country code and page number
+    url = 'https://www.ibo.org/programmes/find-an-ib-school/?SearchFields.Region={}&SearchFields.Country={}&SearchFields.Keywords=&SearchFields.Language=English&SearchFields.BoardingFacilities=&SearchFields.SchoolGender=&SearchFields.ProgrammeDP=true&page={}'
+
+    regions = {
+                'Americas' : 'iba',
+                'Asia Pacific' : 'ibap',
+                'Africa, Europe and Middle East' : 'ibaem'
             }
 
     # load the data from JSON file
@@ -482,7 +483,12 @@ def main():
 
             for i in range(1, country["num_of_pages"]+1):
                 print('\t\tParsing Page {} out of {}.....'.format(i, country["num_of_pages"]))
-                data.append(parse(urls[region].format(country["country_code"], i)))
+                try:
+                    data.append(parse(url.format(regions[region],country["country_code"], i)))
+                except:
+                    print('Error accured. Saving everything!!!')
+                    save(data)
+                    return
     
     # save the data to excel file
     save(data)

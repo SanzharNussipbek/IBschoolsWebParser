@@ -158,6 +158,143 @@
     ],
     "Asia Pacific": [
         {
+            "country_code": "AU",
+            "num_of_pages": 4,
+            "country_name": "Australia"
+        },
+        {
+            "country_code": "BD",
+            "num_of_pages": 1,
+            "country_name": "Bangladesh"
+        },
+        {
+            "country_code": "BN",
+            "num_of_pages": 1,
+            "country_name": "Brunei Darussalam"
+        },
+        {
+            "country_code": "KH",
+            "num_of_pages": 1,
+            "country_name": "Cambodia"
+        },
+        {
+            "country_code": "CN",
+            "num_of_pages": 6,
+            "country_name": "China"
+        },
+        {
+            "country_code": "FJ",
+            "num_of_pages": 1,
+            "country_name": "Fiji"
+        },
+        {
+            "country_code": "GU",
+            "num_of_pages": 1,
+            "country_name": "Guam"
+        },
+        {
+            "country_code": "HK",
+            "num_of_pages": 2,
+            "country_name": "Hong Kong"
+        },
+        {
+            "country_code": "IN",
+            "num_of_pages": 8,
+            "country_name": "India"
+        },
+        {
+            "country_code": "ID",
+            "num_of_pages": 3,
+            "country_name": "Indonesia"
+        },
+        {
+            "country_code": "JP",
+            "num_of_pages": 3,
+            "country_name": "Japan"
+        },
+        {
+            "country_code": "KR",
+            "num_of_pages": 1,
+            "country_name": "Korea"
+        },
+        {
+            "country_code": "LA",
+            "num_of_pages": 1,
+            "country_name": "Lao"
+        },
+        {
+            "country_code": "MO",
+            "num_of_pages": 1,
+            "country_name": "Macao"
+        },
+        {
+            "country_code": "MY",
+            "num_of_pages": 1,
+            "country_name": "Malaysia"
+        },
+        {
+            "country_code": "MN",
+            "num_of_pages": 3,
+            "country_name": "Mongolia"
+        },
+        {
+            "country_code": "MM",
+            "num_of_pages": 1,
+            "country_name": "Myanmar"
+        },
+        {
+            "country_code": "NP",
+            "num_of_pages": 1,
+            "country_name": "Nepal"
+        },
+        {
+            "country_code": "NZ",
+            "num_of_pages": 1,
+            "country_name": "New Zealand"
+        },
+        {
+            "country_code": "PK",
+            "num_of_pages": 1,
+            "country_name": "Pakistan"
+        },
+        {
+            "country_code": "PG",
+            "num_of_pages": 1,
+            "country_name": "Papua New Guinea"
+        },
+        {
+            "country_code": "PH",
+            "num_of_pages": 1,
+            "country_name": "Philippines"
+        },
+        {
+            "country_code": "SG",
+            "num_of_pages": 2,
+            "country_name": "Singapore"
+        },
+        {
+            "country_code": "LK",
+            "num_of_pages": 1,
+            "country_name": "Sri Lanka"
+        },
+        {
+            "country_code": "TW",
+            "num_of_pages": 1,
+            "country_name": "Taiwan"
+        },
+        {
+            "country_code": "TH",
+            "num_of_pages": 2,
+            "country_name": "Thailand"
+        },
+        {
+            "country_code": "VN",
+            "num_of_pages": 1,
+            "country_name": "Vietnam"
+        }
+    ],
+    "Africa, Europe and Middle East": [
+        {
             "country_code": "AZ",
             "num_of_pages": 1,
             "country_name": "Azerbaijan"
@@ -370,7 +507,7 @@
         {
             "country_code": "KE",
             "num_of_pages": 1,
-            "country_name": "Kenia"
+            "country_name": "Kenya"
         },
         {
             "country_code": "KW",
@@ -621,143 +758,6 @@
             "country_code": "ZW",
             "num_of_pages": 1,
             "country_name": "Zimbabwe"
-        }
-    ],
-    "Africa, Europe and Middle East": [
-        {
-            "country_code": "AU",
-            "num_of_pages": 4,
-            "country_name": "Australia"
-        },
-        {
-            "country_code": "BD",
-            "num_of_pages": 1,
-            "country_name": "Bangladesh"
-        },
-        {
-            "country_code": "BN",
-            "num_of_pages": 1,
-            "country_name": "Brunei Darussalam"
-        },
-        {
-            "country_code": "KH",
-            "num_of_pages": 1,
-            "country_name": "Cambodia"
-        },
-        {
-            "country_code": "CN",
-            "num_of_pages": 6,
-            "country_name": "China"
-        },
-        {
-            "country_code": "FJ",
-            "num_of_pages": 1,
-            "country_name": "Fiji"
-        },
-        {
-            "country_code": "GU",
-            "num_of_pages": 1,
-            "country_name": "Guam"
-        },
-        {
-            "country_code": "HK",
-            "num_of_pages": 2,
-            "country_name": "Hong Kong"
-        },
-        {
-            "country_code": "IN",
-            "num_of_pages": 8,
-            "country_name": "India"
-        },
-        {
-            "country_code": "ID",
-            "num_of_pages": 3,
-            "country_name": "Indonesia"
-        },
-        {
-            "country_code": "JP",
-            "num_of_pages": 3,
-            "country_name": "Japan"
-        },
-        {
-            "country_code": "KR",
-            "num_of_pages": 1,
-            "country_name": "Korea"
-        },
-        {
-            "country_code": "LA",
-            "num_of_pages": 1,
-            "country_name": "Lao"
-        },
-        {
-            "country_code": "MO",
-            "num_of_pages": 1,
-            "country_name": "Macao"
-        },
-        {
-            "country_code": "MY",
-            "num_of_pages": 1,
-            "country_name": "Malaysia"
-        },
-        {
-            "country_code": "MN",
-            "num_of_pages": 3,
-            "country_name": "Mongolia"
-        },
-        {
-            "country_code": "MM",
-            "num_of_pages": 1,
-            "country_name": "Myanmar"
-        },
-        {
-            "country_code": "NP",
-            "num_of_pages": 1,
-            "country_name": "Nepal"
-        },
-        {
-            "country_code": "NZ",
-            "num_of_pages": 1,
-            "country_name": "New Zealand"
-        },
-        {
-            "country_code": "PK",
-            "num_of_pages": 1,
-            "country_name": "Pakistan"
-        },
-        {
-            "country_code": "PG",
-            "num_of_pages": 1,
-            "country_name": "Papua New Guinea"
-        },
-        {
-            "country_code": "PH",
-            "num_of_pages": 1,
-            "country_name": "Philippines"
-        },
-        {
-            "country_code": "SG",
-            "num_of_pages": 2,
-            "country_name": "Singapore"
-        },
-        {
-            "country_code": "LK",
-            "num_of_pages": 1,
-            "country_name": "Sri Lanka"
-        },
-        {
-            "country_code": "TW",
-            "num_of_pages": 1,
-            "country_name": "Taiwan"
-        },
-        {
-            "country_code": "TH",
-            "num_of_pages": 2,
-            "country_name": "Thailand"
-        },
-        {
-            "country_code": "VN",
-            "num_of_pages": 1,
-            "country_name": "Vietnam"
         }
     ]
 }
